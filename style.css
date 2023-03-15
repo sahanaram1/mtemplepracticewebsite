@@ -1,0 +1,1124 @@
+/* Navbar container */
+body {
+  background-color: #feffd5;
+}
+h1 {
+  text-align: center;
+  color: rgb(95, 7, 7);
+  font-family: "Lobster", cursive;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #fecfa6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #fbcba1;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(219, 91, 48);
+  color: #272323;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #fbba9c;
+  color: rgb(0, 0, 0);
+  border-radius: 40px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h3 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-weight: 500;
+  color: #703a07;
+}
+button {
+  border-color: purple;
+  background-color: #f79013;
+  color: black;
+  border-radius: 40px;
+  font-family: "Lobster", cursive;
+  font-size: large;
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  align-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+p {
+  text-align: center;
+  font-family: "Lora", serif;
+  font-weight: lighter;
+}
+
+* {
+  box-sizing: border-box;
+}
+.mySlides1,
+.mySlides2 {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  float: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: purple;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+hr {
+  border: 5px dotted rgb(215, 110, 30);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+  text-align: center;
+}
+
+/* forward & Back buttons */
+.Back,
+.forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: purple;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover,
+.forward:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption Info */
+.Info {
+  color: #e3e3e3;
+  font-size: 16px;
+  padding: 10px 14px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+.txt-mono-sml {
+  font-size: 12px;
+}
+
+.card-header {
+  background: #b5b1aa;
+  font-size: 18px;
+  font-weight: bold;
+  color: #21214a;
+  font-family: "Lobster", cursive;
+}
+
+.card-body {
+  background: #f2ecec;
+}
+
+/* CARD DETAILS */
+
+/* SimpleCartJS Formatting */
+/*.simpleCart_items table {
+  width:100%;
+}
+
+.simpleCart_items div div.headerRow div[class*="item-"] {
+  float:left;
+  width: 20%;
+}
+
+.simpleCart_items div div.itemRow div[class*="item-"] {
+  float:left;
+  width: 20%;
+}
+*/
+
+.cartdetails_lbl {
+  font-weight: bold;
+}
+
+/* SIMPLE CART STYLE */
+
+.simpleCart_items {
+  display: table;
+  width: auto;
+  /*background-color: #eee;*/
+  /*border: 1px solid #666666;*/
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+
+.simpleCart_items div div.headerRow {
+  display: table-row;
+  width: auto;
+  clear: both;
+  color: #198029;
+}
+
+.simpleCart_items div div.itemRow {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+
+.simpleCart_items div div.headerRow div[class*="item-"] {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 100px;
+  /*background-color: #ccc;*/
+}
+
+.simpleCart_items div div.itemRow div[class*="item-"] {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 100px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.simpleCart_items div div.headerRow div.item-name {
+  width: 400px;
+}
+
+.simpleCart_items div div.itemRow div.item-name {
+  width: 400px;
+}
+
+.simpleCart_items div div.headerRow div.item-date {
+  width: 100px;
+}
+
+.simpleCart_items div div.itemRow div.item-date {
+  width: 100px;
+  min-width: 100px;
+  display: list-item;
+}
+
+.simpleCart_items div div.headerRow div.item-price {
+  width: 80px;
+}
+
+.simpleCart_items div div.itemRow div.item-price {
+  width: 80px;
+}
+
+.simpleCart_items div div.headerRow div.item-quantity {
+  margin-left: 10px;
+  min-width: 48px;
+}
+
+.simpleCart_items div div.itemRow div.item-quantity {
+  width: 80px;
+}
+
+.simpleCart_items div div.headerRow div.item-total {
+  width: 100px;
+  padding-left: 10px;
+}
+
+.simpleCart_items div div.itemRow div.item-total {
+  width: 100px;
+  padding-left: 16px;
+}
+
+.simpleCartTotal_parent {
+  padding-left: 253px;
+  font-weight: bold;
+}
+
+.simpleCart_checkout {
+  margin-left: 252px;
+}
+
+.simpleCart_empty {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .simpleCart_items div div.headerRow div.item-name {
+    width: 130px;
+  }
+
+  .simpleCart_items div div.itemRow div.item-name {
+    width: 130px;
+  }
+
+  .simpleCartTotal_parent {
+    padding-left: 45px;
+    font-weight: bold;
+  }
+
+  .simpleCart_checkout {
+    margin-left: 10px;
+  }
+
+  .item-date,
+  .item-total,
+  .item-quantity,
+  .item-increment,
+  .item-decrement {
+    display: none !important;
+  }
+
+  /*.cartdetails_lbl, .simpleCart_items {
+    display: none;
+  }*/
+
+  .simpleCart_empty {
+    display: none;
+  }
+}
+
+.item-decrement,
+.item-increment {
+  width: 10px !important;
+}
+.item-quantity {
+  width: 40px !important;
+  text-align: center;
+}
+
+.txt-mono-sml {
+  font-size: 12px;
+}
+
+.card-header {
+  background: #b5b1aa;
+  font-size: 18px;
+  font-weight: bold;
+  color: #21214a;
+  font-family: "Lobster", cursive;
+}
+
+.card-body {
+  background: #f2ecec;
+}
+
+/* CARD DETAILS */
+
+/* SimpleCartJS Formatting */
+/*.simpleCart_items table {
+  width:100%;
+}
+
+.simpleCart_items div div.headerRow div[class*="item-"] {
+  float:left;
+  width: 20%;
+}
+
+.simpleCart_items div div.itemRow div[class*="item-"] {
+  float:left;
+  width: 20%;
+}
+*/
+
+.cartdetails_lbl {
+  font-weight: bold;
+}
+
+/* SIMPLE CART STYLE */
+
+.simpleCart_items {
+  display: table;
+  width: auto;
+  /*background-color: #eee;*/
+  /*border: 1px solid #666666;*/
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+
+.simpleCart_items div div.headerRow {
+  display: table-row;
+  width: auto;
+  clear: both;
+  color: #198029;
+}
+
+.simpleCart_items div div.itemRow {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+
+.simpleCart_items div div.headerRow div[class*="item-"] {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 100px;
+  /*background-color: #ccc;*/
+}
+
+.simpleCart_items div div.itemRow div[class*="item-"] {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 100px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.simpleCart_items div div.headerRow div.item-name {
+  width: 400px;
+}
+
+.simpleCart_items div div.itemRow div.item-name {
+  width: 400px;
+}
+
+.simpleCart_items div div.headerRow div.item-date {
+  width: 100px;
+}
+
+.simpleCart_items div div.itemRow div.item-date {
+  width: 100px;
+  min-width: 100px;
+  display: list-item;
+}
+
+.simpleCart_items div div.headerRow div.item-price {
+  width: 80px;
+}
+
+.simpleCart_items div div.itemRow div.item-price {
+  width: 80px;
+}
+
+.simpleCart_items div div.headerRow div.item-quantity {
+  margin-left: 10px;
+  min-width: 48px;
+}
+
+.simpleCart_items div div.itemRow div.item-quantity {
+  width: 80px;
+}
+
+.simpleCart_items div div.headerRow div.item-total {
+  width: 100px;
+  padding-left: 10px;
+}
+
+.simpleCart_items div div.itemRow div.item-total {
+  width: 100px;
+  padding-left: 16px;
+}
+
+.simpleCartTotal_parent {
+  padding-left: 253px;
+  font-weight: bold;
+}
+
+.simpleCart_checkout {
+  margin-left: 252px;
+}
+
+.simpleCart_empty {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .simpleCart_items div div.headerRow div.item-name {
+    width: 130px;
+  }
+
+  .simpleCart_items div div.itemRow div.item-name {
+    width: 130px;
+  }
+
+  .simpleCartTotal_parent {
+    padding-left: 45px;
+    font-weight: bold;
+  }
+
+  .simpleCart_checkout {
+    margin-left: 10px;
+  }
+
+  .item-date,
+  .item-total,
+  .item-quantity,
+  .item-increment,
+  .item-decrement {
+    display: none !important;
+  }
+
+  /*.cartdetails_lbl, .simpleCart_items {
+    display: none;
+  }*/
+
+  .simpleCart_empty {
+    display: none;
+  }
+}
+
+.item-decrement,
+.item-increment {
+  width: 10px !important;
+}
+.item-quantity {
+  width: 40px !important;
+  text-align: center;
+}
+.sr-only {
+  color: rgb(95, 7, 7);
+  font-family: "Lobster", cursive;
+}
+.card-text {
+  text-align: left;
+}
+.mb-0 {
+  text-align: left;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+.newsletter {
+  text-align: left;
+  font-family: "Lora", serif;
+}
+
+.templehist {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+.templehistparagraph {
+  color: rgb(92, 6, 118);
+  font-size: 18px;
+  font-weight: lighter;
+  background: #ffbb93;
+  border-radius: 40px;
+  padding: 20px;
+  font-family: "Lora", serif;
+}
+
+.services {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+.servicesparagraph {
+  color: rgb(92, 6, 118);
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "Lora", serif;
+  background: #ffbb93;
+  border-radius: 40px;
+  padding: 20px;
+}
+.news {
+  background: #b4fbf4;
+  border-radius: 40px;
+  padding: 5px 20px;
+  text-align: left;
+}
+.donations {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+.donationsparagraph {
+  color: rgb(92, 6, 118);
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "Lora", serif;
+  background: #ffbb93;
+  border-radius: 40px;
+  padding: 20px;
+}
+.kitchen {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+.kitchenparagraph {
+  color: rgb(92, 6, 118);
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "Lora", serif;
+  background: #ffbb93;
+  border-radius: 40px;
+  padding: 20px;
+}
+.green {
+  border: 5px dashed rgb(7, 125, 121);
+}
+.address {
+  text-align: left;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+.addressparagraph {
+  text-align: left;
+  font-family: "Lora", serif;
+  color: rgb(20, 7, 95);
+}
+.social {
+  text-align: left;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+
+.contactus {
+  text-align: left;
+  font-family: "Lobster", cursive;
+  color: rgb(95, 7, 7);
+}
+.contactusparagraph {
+  text-align: left;
+  font-family: "Lora", serif;
+  color: rgb(20, 7, 95);
+}
+footer {
+  background: palegreen;
+  border-radius: 40px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+}
+.pink {
+  border: 3px dotted pink;
+}
+.events {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(169, 22, 108);
+}
+.eventdandt {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  background: rgb(243, 219, 253);
+  border-radius: 40px;
+  padding: 20px;
+  color: rgb(84, 3, 84);
+  font-size: large;
+}
+span {
+  font-size: medium;
+}
+.contact {
+  text-align: center;
+  color: rgb(95, 7, 7);
+  font-family: "Lobster", cursive;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #fc9c73;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactparagraph {
+  background: rgb(255, 203, 212);
+  text-align: center;
+  border-radius: 40px;
+  padding: 30px;
+  font-size: 18px;
+  color: rgb(20, 7, 95);
+  font-weight: 100;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* YouTube */
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: fuchsia;
+  color: yellow;
+}
+.firstparagraph {
+  text-align: right;
+}
+.purple {
+  border: 3px dotted rgb(228, 185, 253);
+}
+.secondparagraph {
+  text-align: right;
+}
+.thirdparagraph {
+  text-align: right;
+}
+.fourthparagraph {
+  text-align: right;
+}
+.fifthparagraph {
+  text-align: right;
+}
+.sixthparagraph {
+  text-align: right;
+}
+.images {
+  text-align: center;
+}
+.iframe {
+  text-align: center;
+}
+.boardoftrustees {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(167, 17, 17);
+}
+ul {
+  text-align: left;
+  font-family: "Lora", serif;
+  color: rgb(92, 6, 118);
+  background: lavender;
+  border-radius: 40px;
+  padding: 15px;
+  font-weight: 900;
+  font-size: larger;
+}
+li {
+  text-align: left;
+  font-family: "Lora", serif;
+  color: rgb(92, 6, 118);
+  background: lavender;
+  border-radius: 40px;
+  padding: 15px;
+  font-weight: 900;
+  font-size: larger;
+}
+.boardoftrusteeslist {
+  text-align: center;
+}
+.exec {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(167, 17, 17);
+}
+.committees {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(167, 17, 17);
+}
+.updated {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(82, 14, 141);
+  font-size: large;
+}
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+.servicesform {
+  text-align: center;
+  background: lavenderblush;
+  border-radius: 40px;
+  padding: 5px;
+}
+h4 {
+  text-align: left;
+  font-family: "Lora", serif;
+  color: rgb(12, 147, 82);
+}
+.murugapic {
+  text-align: center;
+}
+.waystodonate {
+  color: purple;
+}
+.makeadifference {
+  text-align: center;
+}
+.amazonsmileparagraph {
+  color: navy;
+}
+.fedimg {
+  text-align: center;
+}
+.endowmentheader {
+  text-align: center;
+  color: purple;
+  font-family: "Lobster", cursive;
+}
+.fedcampaignheader {
+  text-align: center;
+  color: purple;
+  font-family: "Lobster", cursive;
+}
+.mtnaparagraph {
+  text-align: center;
+  color: rgb(6, 6, 104);
+  font-family: "Lora", serif;
+}
+.donatenow {
+  text-align: center;
+  color: purple;
+  font-family: "Lobster", cursive;
+}
+.donatenowparagraph {
+  text-align: center;
+  color: rgb(6, 6, 104);
+  font-family: "Lora", serif;
+}
+.donatecause {
+  text-align: center;
+  color: purple;
+  font-family: "Lobster", cursive;
+}
+.donatecauseparagraph {
+  text-align: center;
+  color: rgb(6, 6, 104);
+  font-family: "Lora", serif;
+}
+.patron {
+  text-align: center;
+  color: purple;
+  font-family: "Lobster", cursive;
+}
+.patronparagraph {
+  text-align: center;
+  color: rgb(6, 6, 104);
+  font-family: "Lora", serif;
+}
+.murugabless {
+  text-align: center;
+  color: #ea2208;
+  font-size: larger;
+}
+.endowmentheader {
+  color: #0792fd;
+  font-weight: 300;
+  font-family: "Lobster", cursive;
+}
+.endowmentparagraph {
+  text-align: center;
+  color: #9b055f;
+  font-size: larger;
+  font-family: "Lora", serif;
+}
+.purposeendowmentparagraph {
+  text-align: center;
+  color: rgb(20, 7, 95);
+  font-family: "Lora", serif;
+  font-size: larger;
+}
+.gifts {
+  font-family: "Lora", serif;
+}
+.undesignated {
+  font-family: "Lora", serif;
+  text-align: center;
+  color: rgb(167, 17, 17);
+}
+.designated {
+  text-align: center;
+  font-family: "Lora", serif;
+  color: rgb(167, 17, 17);
+}
+.giftsandconf {
+  text-align: center;
+  font-family: "Lora", serif;
+  color: rgb(167, 17, 17);
+}
